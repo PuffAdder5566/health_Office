@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style_home.css">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <script src="java_home.js" defer></script>
+  <body>
+
+    <div class="header">
+          <div class="inner_header">
+            <div class="logo_container">
+              <h1> ICS Health Office </h1>
+            </div>
+            <div class="toggle" onclick='toggleMenu()'></div>
+            <ul class="navigation">
+              <li><a href="home_clinic.html"><span> Home </span></a></li>
+              <li><a href="vl_clinic.html"> Vision & Location </a></li>
+              <li><a href="sb_clinic.html"> Staff Bio's </a></li>
+              <li><a href="qa_clinic.html"> Q & A </a></li>
+          </div>
+        </div>
+        <div class="img">
+          <img src="clinic_photos/health_office1.jpg">
+        </div>
+        <div class="intro">
+          <img src="clinic_photos/health_office2.jpg" class="slideshow-img" >
+          <img src="clinic_photos/health_office3.jpg" class="slideshow-img">
+          <img src="clinic_photos/health_office4.jpg" class="slideshow-img">
+          <img src="clinic_photos/health_office1.jpg" class="slideshow-img">
+        </div>
+        <div class="img_design">
+          <img src="clinic_photos/health_office18.jpg" class="img1" >
+          <!-- <img src="clinic_photos/health_office3.jpg" class="img2">
+          <img src="clinic_photos/health_office4.jpg" class="img3">
+          <img src="clinic_photos/health_office1.jpg" class="img4"> -->
+        </div>
+
+        <div class="welcomeText">
+          <h1>Welcome to the ICS Addis Health Office</h1>
+        </div>
+        <a href="#readMore" class="readMore">Read More</a>
+
+        <img src="clinic_photos/background_line.jpg" class="text_background">
+
+        <div class="more-stuff-grid"  >
+            <img  src="clinic_photos/clinic_logo.jpg"  alt="" class="slide-in-left from-left"  />
+          <p class="slide-in-right from-right" id="readMore"  >
+            On behalf of the Health Office Team, I would love to welcome you (students,parents, and new returning staff) to the ICS Health Office!
+            We are excited to care for you and look forward to working with you. It has definitely been a unique experience all around the
+            globe with COVID-19 and we want to assure you that ICS leadership has put a dedicated effort into developing plans and protocols to
+            ensure the safety and health of every student, parent, and staff member. You can view these plans by <a href="https://sites.google.com/icsaddis.org/ics2021-22campusplaybook/home?authuser=0">clicking here</a> to access the ICS Campus Playbook.
+            Thank you in advance for your support and cooperation with the Health Office at ICS Addis as we partner together in keeping all our
+             students, parents, and staff healthy and safe.
+             <br>
+             <br>
+             Sincerely,<br>
+             Krista Haley RN,BSN<br>
+             Chief Medical Officer<br>
+      </p>
+
+    </div>
+    <footer class="footer">
+      <div class="contactUs">
+        <h3>Contact Us</h3>
+        <p>Email: </p>
+        <a href="mailto:Health.office@icsaddis.org">health.office@icsaddis.org</a>
+        <p>Phone Number: <br><br> 0911248655<p>
+      </div>
+      <div class="hours">
+        <div class="table_head">
+          <thead>Clinic Schedule</thead>
+        </div>
+            <table>
+            <table border=1px>
+              <tr>
+                <th>Days</th>
+                <th>Hours</th>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Wensday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <li><td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+            </table>
+
+      </div>
+
+    </footer>
+
+  </body>
+  <script>
+  function toggleMenu(){
+    const menuToggle = document.querySelector('.toggle');
+    const navigation = document.querySelector('.navigation')
+    menuToggle.classList.toggle('active')
+    navigation.classList.toggle('active')
+  }
+  </script>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html
+  <head>
+    <link rel="stylesheet" type="text/css" href="style_sb.css">
+    <title>Staff Bio's</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="header">
+      <div class="inner_header">
+        <div class="logo_container">
+          <h1>ICS Health Office </h1>
+        </div>
+        <div class="toggle" onclick='toggleMenu()'></div>
+        <ul class="navigation">
+          <li><a href="home_clinic.html">Home</a></li>
+          <li><a href="vl_clinic.html">Vision & Location</a></li>
+          <li><a href="sb_clinic.html"><span>Staff Bio's<span></a></li>
+          <li><a href="qa_clinic.html">Q & A</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="welcome_text">
+      <h2> <span>Meet The Health Office Staff:</span></h2>
+    </div>
+    <br>
+    <div class="krista_bio">
+      <br>
+      <div class="krista_photo">
+        <li><img src="clinic_photos/krista_pic.jpg" width="142px" height="210px" style="float: right"/></li>
+      </div>
+      <li><h3> Krista Haley RN,BSN<br> Chief Medical Officer <h3></li>
+      <li><br></li>
+      <li><p>I have been a nurse for over 23 years and have had the privilege of being the Director of Clinical Quality Assurance, supervising care, and providing education for 17 physicians, nurses, and staff for five medical offices and in 4 hospitals in the U.S. I have also provided care in cardiology, ICU, ER, medical-surgical, oncology, and other hospital units. I have lived in Ethiopia for over six years, providing medical education and care in Addis and remote villages with limited access. I have been married to my wonderful husband, Mark, for over 24 years and have three fabulous sons. It is my pleasure and privilege to be a part of such a wonderful ICS community, and I absolutely love getting to care for each student and staff on campus.</p></li>
+      <br>
+    </div>
+    <br>
+    <br>
+    <div class="taffy_background">
+      <div class="taffy_bio">
+        <br>
+        <div class="taffy_photo">
+          <li><img src="clinic_photos/taffy_pic.jpg" width="110px" height="141px" style="float: right"/></li>
+        </div>
+        <li><h3>Taffy Kibret<br> Nurse<h3></li>
+          <li><br></li>
+          <li><p>I have been working as a nurse for the last 14 years and this is my 11th year here at ICS. I am blessed with a beautiful family, my husband and three energetic boys. I love spending time with my patients. I enjoy treating them and seeing them feel better then going back to class/ work. I also love to travel, explore new places, try new food, cook and bake occasionally.</p></li>
+          <br>
+        </div>
+        <br>
+        <br>
+    </div>
+    <div class="elsa_bio">
+      <br>
+      <div class="elsa_photo">
+        <li><img src="clinic_photos/elsa_pic.jpg" width="120px" height="165px" style="float: right"/></li>
+      </div>
+      <li><h3>Elsa Solomon <br>Nurse<h3></li>
+      <li><br></li>
+      <li><p>I was born in Addis Ababa.  I have been a Nurse for 13 years as a pediatric nurse at Black Lion hospital, SOS  NGO, Suisse clinic and currently at ICS.  I am married and I have one daughter Amnen Henok, she is one and half years old. I enjoy traveling to see many countries and my favorite thing to do is swimming and watching movies in my free time.I am excited to work in the ICS community. </p></li>
+      <br>
+    </div>
+    <footer class="footer">
+      <div class="contactUs">
+        <h3>Contact Us</h3>
+        <p>Email: </p>
+        <a href="mailto:Health.office@icsaddis.org">health.office@icsaddis.org</a>
+        <p>Phone Number: <br><br> 0911248655<p>
+      </div>
+      <div class="hours">
+        <div class="table_head">
+          <thead>Clinic Schedule</thead>
+        </div>
+            <table>
+            <table border=1px>
+              <tr>
+                <th>Days</th>
+                <th>Hours</th>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Wensday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <li><td>8:00 am - 4:30 pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>8:00 am - 4:30 pm</td>
+              </tr>
+            </table>
+
+      </div>
+
+    </footer>
+  </body>
+  <script>
+  function toggleMenu(){
+    const menuToggle = document.querySelector('.toggle');
+    const navigation = document.querySelector('.navigation')
+    menuToggle.classList.toggle('active')
+    navigation.classList.toggle('active')
+  }
+  </script>
+</html>
